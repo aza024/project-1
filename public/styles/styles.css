@@ -1,0 +1,78 @@
+*{
+     
+     color: #333f4f; 
+}
+
+.capBold, .btn{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    text-decoration: underline;
+}
+
+.picture{
+    background: url("../images/mountainman.jpg") no-repeat center center fixed; 
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-image: url("../images/mountainman.jpg");
+    /* min-height: 0px; */
+    height: 100vh;
+    width: 100vw;
+    margin-top: 0;
+    margin-bottom: 0px;  
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    /* width: 50vw; */
+
+}
+
+.btn-default, .btn{
+    background-color:#333f4f;
+    text-align: center;
+    border: 2px solid white;
+    color:white;
+}
+
+
+p{
+    color:white;
+    font-size: .9em;
+}
+.btn-default:hover, .btn:hover{
+    background-color:#333f4f;
+    text-align: center;
+    border: 2px solid goldenrod;
+    color:gold;
+}
+
+
+.border{
+    border-radius: 3px solid #333f4f;
+
+}
+.container .btn{
+    margin-top: 10px;
+}
+/* h3{
+    color:  #333f4f;
+    width: 60vw;
+} */
+.formField{
+    border: 1px soild  #333f4f
+}
+
+#about{
+    width: 65vw;
+}
+
+ #loginForm.container{
+    margin: 2em;
+    width: 65vw;
+}
